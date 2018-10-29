@@ -1,3 +1,14 @@
 #index:
 #    path: /
-#    controller: App\Controller\DefaultController::index
+#    controller: App\Controller\DefaultController::test
+
+default_pruebas:
+  path: /test
+  controller: App\Controller\DefaultController::tests
+default_login:
+  path: /login
+  controller: App\Controller\DefaultController::login
+  methods:   [POST]
+default_signup:
+  path: /signup
+  controller: App\Controller\DefaultController::signup
